@@ -1,0 +1,26 @@
+pwd -> Para saber donde me encuentro
+ls - mirar las carpetas que ahi donde me encuentro
+cd nombreCarpeta -> Para dirigirme a una carpeta en especifico
+cd .. -> Para devolverme
+clear -> Limpiar la consola 
+git clone url -> clonar un repositorio desde github a mi pc 
+git log -> Mirar los commit que se han hecho en el resositorio  
+git log --oneline -> Mirar los commit que se han hecho en el resositorio  de una manera mas clara 
+code . -> Abrir el editor de VsualStudio en la carpeta donde me encutro 
+git pull -> Verifica si ahi actualizaciones del repositorio para bajar estas actualizaciones 
+git status -> comando que sirve para ver que archivos no se le estan haciendo seguimiento 
+git add nombreDelArchivo ->Iniciar el seguimiento con git
+git add . -> Iniciar el seguimiento a todos los archivos 
+git commit -m "descripccion" -> Hace el commit de los archivos con la descripccion 
+git push -> Enviar los cambios al repositorio
+git restore --source idCommirQuieroVolver ArchivoQueQuieroModificar ->Ejemplo git restore --source ce7adc7 index.html -> Sirve para restaurar un archivo a una version anterior
+git branch -> Sirve para ver las ramas de nuestro proyecto
+git checkout -b nombreDeLaRama -> Sirve para crear la rama en mi proyecto
+git switch nombreDeLaRama -> Sirve para moverme entre entre ramas
+git push origin nombreDeLaRama -> Sirve para subir los cambios al repositorio desde una rama determinada 
+git merge nombreDeLaRama -> Sirve para funcionar los cambios de ramas de mi proyecto siempre se debe hacer desde la rama principal main
+git remote -v -> Nos muestra si ahi una conexion con el repositorio remoto 
+ 
+
+
+
