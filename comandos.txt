@@ -20,6 +20,7 @@ git switch nombreDeLaRama -> Sirve para moverme entre entre ramas
 git push origin nombreDeLaRama -> Sirve para subir los cambios al repositorio desde una rama determinada 
 git merge nombreDeLaRama -> Sirve para funcionar los cambios de ramas de mi proyecto siempre se debe hacer desde la rama principal main
 git remote -v -> Nos muestra si ahi una conexion con el repositorio remoto 
+git checkout -- . -> Reconstruye mi aplicaion como estaba en mi ultimo commit 
  
 
 
